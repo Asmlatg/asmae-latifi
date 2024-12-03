@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Ovo;
 }
 
 .App-logo {
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #98c1ff;
 }
 
 @keyframes App-logo-spin {

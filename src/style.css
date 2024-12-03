@@ -5,7 +5,8 @@ html {
     rgba(10, 25, 47, 0.863)   /* #0a192f with different opacity */
   );
 
-  --imp-text-color: #4b74b0;
+  --imp-text-color: #98c1ff;
+  font-family: Ovo;
 }
 
 .purple {
@@ -70,9 +71,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #0a192f !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(5, 2, 35, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -81,6 +82,7 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  font-family: Ovo;
 }
 
 .navbar-toggler {
@@ -149,8 +151,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2.5em !important;
+  width: 5.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -236,14 +238,14 @@ button:focus {
     transform: rotate(0deg);
   }
 }
-#tsparticles {
+/*#tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
   height: 100%;
 }
-
+*/
 .home-header {
   padding-top: 80px !important;
 }
@@ -275,17 +277,17 @@ button:focus {
 }
 
 .main-name {
-  color: #3880ed;;
+  color: #98c1ff;;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #3880ed !important;
+  color: #98c1ff !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #3880ed !important;
+  color: #98c1ff !important;
 }
 
 @media (max-width: 767px) {
@@ -377,8 +379,8 @@ button:focus {
 }
 
 .home-social-icons:hover {
-  color: #3880ed;
-  box-shadow: 0 0 5px #081a34;
+  color: #98c1ff;
+  box-shadow: 0 0 2px #081a34;
   text-shadow: 0 0 2px #0a192f;
 }
 
@@ -396,7 +398,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #0a192f;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -433,7 +435,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #3880ed !important;
+  color: #98c1ff !important;
 }
 /* --------- */
 /* Projects */
@@ -549,12 +551,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid #0e4591 !important;
+  border: 1.7px solid #98c1ff !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px #0e4591 !important;
+  box-shadow: 2px 2px 2px 3px #98c1ff !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -646,7 +648,7 @@ button:focus {
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background: #0a3a7d;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -721,7 +723,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #154fa0 !important;
+  background-color: #366fb5 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -729,8 +731,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #487ac1 !important;
-  border-color: #487ac1 !important;
+  background-color: #74a0e1 !important;
+  border-color: #98c1ff !important;
 }
 .fork-btn-inner::after {
   display: none !important;
