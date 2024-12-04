@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImCheckmark2 } from "react-icons/im";
+
 
 function AboutCard() {
   return (
@@ -9,32 +10,31 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             I am <span className="purple">Asmae Latifi </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            from <span className="purple"> Dijon, France.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently an apprentice at APRR, where I serve as a Software and Data Engineer.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I am also in my final year at Polytech Dijon, pursuing an engineering degree in Software Engineering and Artificial Intelligence.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, here's what I love to do: 
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImCheckmark2 /> Writing blogs on AI and technology, sharing insights gained from my recent learning experiences.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImCheckmark2 /> Exploring the latest math advancements in data science to sharpen my skills.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImCheckmark2 /> I enjoy exploring music and learning about different instruments.
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Data is the new oil."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Clive Humby</footer>
         </blockquote>
       </Card.Body>
     </Card>
