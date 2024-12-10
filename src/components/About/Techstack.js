@@ -16,11 +16,6 @@ function Techstack() {
           <DiPython />
         </Col>
       </OverlayTrigger>
-      <OverlayTrigger placement="top" overlay={renderTooltip("C++")}>
-        <Col xs={4} md={2} className="tech-icons">
-          <CgCPlusPlus />
-        </Col>
-      </OverlayTrigger>
       <OverlayTrigger placement="top" overlay={renderTooltip("JavaScript")}>
         <Col xs={4} md={2} className="tech-icons">
           <DiJavascript1 />
@@ -91,11 +86,6 @@ function Techstack() {
           <SiScikitlearn />
         </Col>
       </OverlayTrigger>
-      <OverlayTrigger placement="top" overlay={renderTooltip("TensorFlow")}>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiTensorflow />
-        </Col>
-      </OverlayTrigger>
       <OverlayTrigger placement="top" overlay={renderTooltip("R Programming")}>
         <Col xs={4} md={2} className="tech-icons">
           <SiR />
@@ -111,11 +101,6 @@ function Techstack() {
       <OverlayTrigger placement="top" overlay={renderTooltip("Docker")}>
         <Col xs={4} md={2} className="tech-icons">
           <SiDocker />
-        </Col>
-      </OverlayTrigger>
-      <OverlayTrigger placement="top" overlay={renderTooltip("Kubernetes")}>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiKubernetes />
         </Col>
       </OverlayTrigger>
 

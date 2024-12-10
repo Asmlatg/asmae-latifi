@@ -735,3 +735,11 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+/** Blog section **/
+.blogs-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: #e6e5dc !important;
+}

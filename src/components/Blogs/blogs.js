@@ -92,35 +92,28 @@ function Blogs() {
 export default Blogs;*/
 
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
-
-function BlogsSoonCard() {
-  return (
-    <Card className="blog-card-view">
-      <Card.Body className="text-center">
-        <Card.Title>Blogs Coming Soon!</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-        </Card.Text>
-      </Card.Body>
-    </Card>
-  );
-}
+import { Container, Row, Col } from "react-bootstrap";
 
 function Blogs() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="resume-section">
       <Container>
         <h1 className="project-heading">
           My <strong className="purple">Blogs</strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Fresh content is on its way
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="blog-card">
-            <BlogsSoonCard />
-          </Col>
-        </Row>
+        
+        <div className="resume">
+          <Row>
+            <Col md={12}>
+              <div className="resume-item">
+                <h3 className="resume-title">Blogs Coming Soon</h3>
+                <p style={{ textAlign: "justify", paddingLeft: "25px" }}>
+                I’m currently working on a series of in-depth blog posts that will cover a wide range of topics, including artificial intelligence, advanced mathematics, and big data analytics. These blogs will offer valuable insights, practical applications, and the latest trends in these fields. 
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </Container>
   );
