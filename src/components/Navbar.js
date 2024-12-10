@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 
-
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -48,7 +47,7 @@ function NavBar() {
                 Home
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -58,7 +57,7 @@ function NavBar() {
                 About
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -69,7 +68,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -79,12 +78,12 @@ function NavBar() {
                 Resume
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/blogs"
+                onClick={() => updateExpanded(false)}
               >
                 Blogs
               </Nav.Link>
