@@ -4,8 +4,7 @@ import myImg from "../../Assets/avatar.webp";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -13,43 +12,29 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <Row className="align-items-center">
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let me <span className="purple"> introduce </span> myself
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+              I am a passionate <span className="purple">Data Scientist</span> and 
+              <span className="purple"> Software Developer</span> with a strong interest in harnessing 
+              the power of <span className="purple">Artificial Intelligence</span> and 
+              <span className="purple"> Machine Learning</span> to solve real-world challenges.  
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              My expertise includes working with programming languages such as 
+              <span className="purple"> C#, Python,</span> and <span className="purple">Java</span>.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I enjoy building efficient and scalable 
+              <span className="purple"> Data-Driven Applications</span> and exploring the 
+              intersection of mathematics and technology in AI advancements.
+              <br />
+              <br />
+              I am always eager to learn, collaborate, and innovate to create meaningful 
+              solutions in the world of <span className="purple">Data Science</span> and beyond.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,14 +45,14 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Contact Me</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect with me </span>and let's create something amazing together!
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Asmlatg"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,10 +61,8 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-              </li>
-              <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/asmae-latifi-873b19292/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,6 +71,14 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
+                <a
+                  href="mailto:asmaelatifi63@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
               </li>
             </ul>
           </Col>
@@ -96,4 +87,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

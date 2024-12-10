@@ -6,7 +6,6 @@ html {
   );
 
   --imp-text-color: #98c1ff;
-  font-family: Ovo;
 }
 
 .purple {
@@ -82,7 +81,6 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
-  font-family: Ovo;
 }
 
 .navbar-toggler {
@@ -151,8 +149,8 @@ button:focus {
 }
 
 .logo {
-  height: 2.5em !important;
-  width: 5.5em !important;
+  height: 1em !important;
+  width: 4em !important;
 }
 
 .navbar-nav .nav-link {

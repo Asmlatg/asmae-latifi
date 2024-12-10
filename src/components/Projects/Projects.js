@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/blog.gif";
 
 function Projects() {
   return (
@@ -15,31 +15,24 @@ function Projects() {
       {/*<Particle />*/}
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Business Intelligence: Navigating the Computer Science Job Market"
+              description = "I conducted a comprehensive study of job market trends in the computer science field using data scraped from LinkedIn job listings. I applied the ETL process to convert the raw data into a structured data lake. The data was then visualized using Power BI."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              isBlog={true}
+              title="Multi-Object Re-Identification Using AI"
+              description="Developed an algorithm from scratch for detecting and re-identifying multiple objects across consecutive frames. This algorithm leverages appearance feature extraction of detected objects and applies advanced mathematical models to accurately re-identify them over time. The solution enhances object tracking and recognition capabilities in dynamic environments."
             />
           </Col>
 
