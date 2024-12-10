@@ -1,85 +1,130 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Tooltip, OverlayTrigger } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiSqllite, DiPython, DiJavascript1, DiDotnet, DiAngularSimple, DiDjango, DiNodejs, DiMongodb, DiGit, DiJava } from "react-icons/di";
 import { SiRedis, SiPostgresql, SiTensorflow, SiPandas, SiNumpy, SiKeras, SiApachespark, SiDocker, SiKubernetes, SiR, SiScikitlearn, SiHadoop } from "react-icons/si";
 
 function Techstack() {
+  // A reusable function to render tooltips
+  const renderTooltip = (name) => <Tooltip>{name}</Tooltip>;
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* Core programming languages */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDotnet />
-      </Col>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Python")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiPython />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("C++")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <CgCPlusPlus />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("JavaScript")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiJavascript1 />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Java")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiJava />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip(".NET")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiDotnet />
+        </Col>
+      </OverlayTrigger>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <DiAngularSimple />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDjango />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Angular")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiAngularSimple />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Django")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiDjango />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Node.js")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiNodejs />
+        </Col>
+      </OverlayTrigger>
 
       {/* Database technologies */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiSqllite />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
+      <OverlayTrigger placement="top" overlay={renderTooltip("MongoDB")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiMongodb />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("SQLite")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiSqllite />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("PostgreSQL")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiPostgresql />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Redis")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiRedis />
+        </Col>
+      </OverlayTrigger>
 
       {/* Data science and AI libraries */}
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNumpy />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPandas />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiScikitlearn />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiR />
-      </Col>
+      <OverlayTrigger placement="top" overlay={renderTooltip("NumPy")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiNumpy />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Pandas")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiPandas />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Scikit-Learn")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiScikitlearn />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("TensorFlow")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiTensorflow />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("R Programming")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiR />
+        </Col>
+      </OverlayTrigger>
 
       {/* Big data and containerization */}
-      <Col xs={4} md={2} className="tech-icons">
-        <SiApachespark />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiKubernetes />
-      </Col>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Apache Spark")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiApachespark />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Docker")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiDocker />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Kubernetes")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiKubernetes />
+        </Col>
+      </OverlayTrigger>
 
       {/* Version control */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
+      <OverlayTrigger placement="top" overlay={renderTooltip("Git")}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiGit />
+        </Col>
+      </OverlayTrigger>
     </Row>
   );
 }
