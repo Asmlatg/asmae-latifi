@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alatifi.github.io/static/css/main.398b2148.css",
-    "main.js": "/alatifi.github.io/static/js/main.73567f6f.js",
+    "main.js": "/alatifi.github.io/static/js/main.93d2f751.js",
     "static/js/415.4d6acbeb.chunk.js": "/alatifi.github.io/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/alatifi.github.io/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.jpg": "/alatifi.github.io/static/media/photo.e26fd831849611965fff.jpg",
@@ -17,12 +17,12 @@
     "static/media/pre.svg": "/alatifi.github.io/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/alatifi.github.io/index.html",
     "main.398b2148.css.map": "/alatifi.github.io/static/css/main.398b2148.css.map",
-    "main.73567f6f.js.map": "/alatifi.github.io/static/js/main.73567f6f.js.map",
+    "main.93d2f751.js.map": "/alatifi.github.io/static/js/main.93d2f751.js.map",
     "415.4d6acbeb.chunk.js.map": "/alatifi.github.io/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/alatifi.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.398b2148.css",
-    "static/js/main.73567f6f.js"
+    "static/js/main.93d2f751.js"
   ]
 }
