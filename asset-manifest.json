@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/asmaelatifi/static/css/main.75f7ae3d.css",
-    "main.js": "/asmaelatifi/static/js/main.0124bfc8.js",
+    "main.js": "/asmaelatifi/static/js/main.e4e84999.js",
     "static/js/415.4d6acbeb.chunk.js": "/asmaelatifi/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/asmaelatifi/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.jpg": "/asmaelatifi/static/media/photo.e26fd831849611965fff.jpg",
     "static/media/chatify.png": "/asmaelatifi/static/media/chatify.3d18095369f6ea7b91d4.png",
-    "static/media/Asmae_LATIFI_CV.pdf": "/asmaelatifi/static/media/Asmae_LATIFI_CV.31e8e9ead8641188f5b0.pdf",
+    "static/media/Asmae_LATIFI_CV.pdf": "/asmaelatifi/static/media/Asmae_LATIFI_CV.131398359de55867364d.pdf",
     "static/media/emotion.png": "/asmaelatifi/static/media/emotion.2478dbb623eabdf8b21c.png",
     "static/media/codeEditor.png": "/asmaelatifi/static/media/codeEditor.99685031282ce58de37a.png",
     "static/media/suicide.png": "/asmaelatifi/static/media/suicide.6d30ad8d2077f196cec1.png",
@@ -17,12 +17,12 @@
     "static/media/pre.svg": "/asmaelatifi/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/asmaelatifi/index.html",
     "main.75f7ae3d.css.map": "/asmaelatifi/static/css/main.75f7ae3d.css.map",
-    "main.0124bfc8.js.map": "/asmaelatifi/static/js/main.0124bfc8.js.map",
+    "main.e4e84999.js.map": "/asmaelatifi/static/js/main.e4e84999.js.map",
     "415.4d6acbeb.chunk.js.map": "/asmaelatifi/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/asmaelatifi/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75f7ae3d.css",
-    "static/js/main.0124bfc8.js"
+    "static/js/main.e4e84999.js"
   ]
 }
