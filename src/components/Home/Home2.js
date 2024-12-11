@@ -18,7 +18,7 @@ function Home2() {
               Let me <span className="purple"> introduce </span> myself
             </h1>
             <p className="home-about-body">
-              I am a passionate <span className="purple">Data Scientist</span> and 
+              I am a passionate <span className="purple">Data Engineer</span> and 
               <span className="purple"> Software Developer</span> with a strong interest in harnessing 
               the power of <span className="purple">Artificial Intelligence</span> and 
               <span className="purple"> Machine Learning</span> to solve real-world challenges.  
