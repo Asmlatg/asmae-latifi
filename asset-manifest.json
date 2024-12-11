@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/alatifi.github.io/static/css/main.398b2148.css",
-    "main.js": "/alatifi.github.io/static/js/main.93d2f751.js",
-    "static/js/415.4d6acbeb.chunk.js": "/alatifi.github.io/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/alatifi.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/photo.jpg": "/alatifi.github.io/static/media/photo.e26fd831849611965fff.jpg",
-    "static/media/chatify.png": "/alatifi.github.io/static/media/chatify.3d18095369f6ea7b91d4.png",
-    "static/media/Asmae_LATIFI_CV.pdf": "/alatifi.github.io/static/media/Asmae_LATIFI_CV.31e8e9ead8641188f5b0.pdf",
-    "static/media/emotion.png": "/alatifi.github.io/static/media/emotion.2478dbb623eabdf8b21c.png",
-    "static/media/codeEditor.png": "/alatifi.github.io/static/media/codeEditor.99685031282ce58de37a.png",
-    "static/media/suicide.png": "/alatifi.github.io/static/media/suicide.6d30ad8d2077f196cec1.png",
-    "static/media/leaf.png": "/alatifi.github.io/static/media/leaf.787279fec93f21a212f7.png",
-    "static/media/about.png": "/alatifi.github.io/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/blog.gif": "/alatifi.github.io/static/media/blog.2adff6c79ce2840cb2ad.gif",
-    "static/media/avatar.webp": "/alatifi.github.io/static/media/avatar.de5536afaff852fb52c7.webp",
-    "static/media/pre.svg": "/alatifi.github.io/static/media/pre.4410c5baaa673cc131da.svg",
-    "index.html": "/alatifi.github.io/index.html",
-    "main.398b2148.css.map": "/alatifi.github.io/static/css/main.398b2148.css.map",
-    "main.93d2f751.js.map": "/alatifi.github.io/static/js/main.93d2f751.js.map",
-    "415.4d6acbeb.chunk.js.map": "/alatifi.github.io/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/alatifi.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/asmaelatifi/static/css/main.75f7ae3d.css",
+    "main.js": "/asmaelatifi/static/js/main.0124bfc8.js",
+    "static/js/415.4d6acbeb.chunk.js": "/asmaelatifi/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/asmaelatifi/static/js/787.1ed0c42c.chunk.js",
+    "static/media/photo.jpg": "/asmaelatifi/static/media/photo.e26fd831849611965fff.jpg",
+    "static/media/chatify.png": "/asmaelatifi/static/media/chatify.3d18095369f6ea7b91d4.png",
+    "static/media/Asmae_LATIFI_CV.pdf": "/asmaelatifi/static/media/Asmae_LATIFI_CV.31e8e9ead8641188f5b0.pdf",
+    "static/media/emotion.png": "/asmaelatifi/static/media/emotion.2478dbb623eabdf8b21c.png",
+    "static/media/codeEditor.png": "/asmaelatifi/static/media/codeEditor.99685031282ce58de37a.png",
+    "static/media/suicide.png": "/asmaelatifi/static/media/suicide.6d30ad8d2077f196cec1.png",
+    "static/media/leaf.png": "/asmaelatifi/static/media/leaf.787279fec93f21a212f7.png",
+    "static/media/about.png": "/asmaelatifi/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/blog.gif": "/asmaelatifi/static/media/blog.2adff6c79ce2840cb2ad.gif",
+    "static/media/avatar.webp": "/asmaelatifi/static/media/avatar.de5536afaff852fb52c7.webp",
+    "static/media/pre.svg": "/asmaelatifi/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/asmaelatifi/index.html",
+    "main.75f7ae3d.css.map": "/asmaelatifi/static/css/main.75f7ae3d.css.map",
+    "main.0124bfc8.js.map": "/asmaelatifi/static/js/main.0124bfc8.js.map",
+    "415.4d6acbeb.chunk.js.map": "/asmaelatifi/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/asmaelatifi/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.398b2148.css",
-    "static/js/main.93d2f751.js"
+    "static/css/main.75f7ae3d.css",
+    "static/js/main.0124bfc8.js"
   ]
 }
