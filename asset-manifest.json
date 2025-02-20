@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/asmaelatifi/static/css/main.75f7ae3d.css",
-    "main.js": "/asmaelatifi/static/js/main.1e328123.js",
-    "static/js/415.4d6acbeb.chunk.js": "/asmaelatifi/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/asmaelatifi/static/js/787.1ed0c42c.chunk.js",
-    "static/media/photo.jpg": "/asmaelatifi/static/media/photo.e26fd831849611965fff.jpg",
-    "static/media/chatify.png": "/asmaelatifi/static/media/chatify.3d18095369f6ea7b91d4.png",
-    "static/media/Asmae_LATIFI_CV.pdf": "/asmaelatifi/static/media/Asmae_LATIFI_CV.131398359de55867364d.pdf",
-    "static/media/emotion.png": "/asmaelatifi/static/media/emotion.2478dbb623eabdf8b21c.png",
-    "static/media/codeEditor.png": "/asmaelatifi/static/media/codeEditor.99685031282ce58de37a.png",
-    "static/media/suicide.png": "/asmaelatifi/static/media/suicide.6d30ad8d2077f196cec1.png",
-    "static/media/leaf.png": "/asmaelatifi/static/media/leaf.787279fec93f21a212f7.png",
-    "static/media/about.png": "/asmaelatifi/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/blog.gif": "/asmaelatifi/static/media/blog.2adff6c79ce2840cb2ad.gif",
-    "static/media/avatar.webp": "/asmaelatifi/static/media/avatar.de5536afaff852fb52c7.webp",
-    "static/media/pre.svg": "/asmaelatifi/static/media/pre.4410c5baaa673cc131da.svg",
-    "index.html": "/asmaelatifi/index.html",
-    "main.75f7ae3d.css.map": "/asmaelatifi/static/css/main.75f7ae3d.css.map",
-    "main.1e328123.js.map": "/asmaelatifi/static/js/main.1e328123.js.map",
-    "415.4d6acbeb.chunk.js.map": "/asmaelatifi/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/asmaelatifi/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.2c0b50bb.css",
+    "main.js": "/static/js/main.2bb80967.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/photo.jpg": "/static/media/photo.e26fd831849611965fff.jpg",
+    "static/media/chatify.png": "/static/media/chatify.3d18095369f6ea7b91d4.png",
+    "static/media/Asmae_LATIFI_CV.pdf": "/static/media/Asmae_LATIFI_CV.131398359de55867364d.pdf",
+    "static/media/emotion.png": "/static/media/emotion.2478dbb623eabdf8b21c.png",
+    "static/media/codeEditor.png": "/static/media/codeEditor.99685031282ce58de37a.png",
+    "static/media/suicide.png": "/static/media/suicide.6d30ad8d2077f196cec1.png",
+    "static/media/leaf.png": "/static/media/leaf.787279fec93f21a212f7.png",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/blog.gif": "/static/media/blog.2adff6c79ce2840cb2ad.gif",
+    "static/media/avatar.webp": "/static/media/avatar.de5536afaff852fb52c7.webp",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.2c0b50bb.css.map": "/static/css/main.2c0b50bb.css.map",
+    "main.2bb80967.js.map": "/static/js/main.2bb80967.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75f7ae3d.css",
-    "static/js/main.1e328123.js"
+    "static/css/main.2c0b50bb.css",
+    "static/js/main.2bb80967.js"
   ]
 }
