@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.webp";
+import myImg from "../../Assets/logo.PNG";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -18,23 +18,17 @@ function Home2() {
               Let me <span className="purple"> introduce </span> myself
             </h1>
             <p className="home-about-body">
-              I am a passionate <span className="purple">Data Engineer</span> and 
-              <span className="purple"> Software Developer</span> with a strong interest in harnessing 
-              the power of <span className="purple">Artificial Intelligence</span> and 
-              <span className="purple"> Machine Learning</span> to solve real-world challenges.  
+              I am a passionate <span className="purple"> Software Engineer</span> with a strong interest in harnessing 
+              the power of <span className="purple">Computer Science</span> to solve real-world challenges.  
               <br />
               <br />
-              My expertise includes working with programming languages such as 
-              <span className="purple"> C#, Python,</span> and <span className="purple">Java</span>.
+              I am dedicated to doing things the right way, consistently conducting extensive research before starting any project and holding myself to the highest standards. 
+              I never allow myself to do a sloppy job—<span className="purple"> perfection is what I strive for</span>.
               <br />
               <br />
-              I enjoy building efficient and scalable 
-              <span className="purple"> Data-Driven Applications</span> and exploring the 
-              intersection of mathematics and technology in AI advancements.
-              <br />
-              <br />
-              I am always eager to learn, collaborate, and innovate to create meaningful 
-              solutions in the world of <span className="purple">Data Science</span> and beyond.
+              These qualities directly translate into my ability to build <span className="purple">scalable</span> and <span className="purple">maintainable</span> applications, quickly learn new concepts and technologies, and produce <span className="purple">high-quality code</span>. 
+              My commitment has also given me a <span className="purple">strong foundation</span> in <span className="purple">software development</span> and a solid knowledge base in <span className="purple">AI</span> and <span className="purple">data</span>.
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">

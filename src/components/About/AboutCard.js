@@ -12,7 +12,7 @@ function AboutCard() {
             I am <span className="purple">Asmae Latifi </span>
             from <span className="purple"> Dijon, France.</span>
             <br />
-            I am currently an apprentice at APRR, where I serve as a Software and Data Engineer.
+            I am currently an apprentice at APRR, where I serve as a Software Engineer.
             <br />
             I am also in my final year at Polytech Dijon, pursuing an engineering degree in Software Engineering and Artificial Intelligence.
             <br />
@@ -29,12 +29,15 @@ function AboutCard() {
             <li className="about-activity">
               <ImCheckmark2 /> I enjoy exploring music and learning about different instruments.
             </li>
+            <li className="about-activity">
+              <ImCheckmark2 /> Caring for our furry little companions-especially cats, as you might have already noticed- is something I truly enjoy!
+            </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Data is the new oil."{" "}
+            "Meow."{" "}
           </p>
-          <footer className="blockquote-footer">Clive Humby</footer>
+          <footer className="blockquote-footer">A cat, hopefully</footer>
         </blockquote>
       </Card.Body>
     </Card>
